@@ -5,7 +5,6 @@
 .mcv-head {
     margin-bottom: 15px;
     position: relative;
-    /*background-color: green;*/
     display: block;
 }
 
@@ -20,7 +19,6 @@
 }
 
 .mcv-head .mcv-name {
-    /*background-color: red;*/
     padding: 0 0 0 20px;
     font-size: 45px;
     display: block;
@@ -31,7 +29,6 @@
 
 .mcv-head .mcv-info {
     float: right;
-    /*background-color: blue;*/
     vertical-align: bottom;
 }
 

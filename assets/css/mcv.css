@@ -1,0 +1,78 @@
+
+.mcv-head {
+    width: 150px;
+    border: 1px solid;
+    padding: 3px;
+    margin: 0 0 0 15px;
+
+    color: #59b24c;
+}
+
+.mcv-section {
+    font-size: 20px;
+    display: block;
+    margin-left: 24px;
+    margin-top: 25%;
+}
+
+.mcv-section:before {
+    content: "";
+    display: inline-block;
+    width: 70px;
+    height: 6px;
+    vertical-align: 3px;
+    margin-right: 15px;
+    background: green
+}
+
+.mcv-cventry > span:nth-child(1){
+    width: 85px;
+    padding-right: 15px;
+    text-align: right;
+    font-size: 13px;
+    display: block;
+    margin-left: 8px;
+    float: left;
+    font-weight: bold;
+}
+
+.mcv-cventry > span:nth-child(2) {
+    margin: 0 0 0 108px;
+    font-size: 12px;
+    display: block;
+    
+}
+
+.mcv-cventry > span:nth-child(2) > span:nth-child(1) {
+    font-family: lmsans10-bold, sans-serif;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+.mcv-cventry > span:nth-child(2) > span:nth-child(2):not(:empty):before,
+.mcv-cventry > span:nth-child(2) > span:nth-child(3):not(:empty):before,
+.mcv-cventry > span:nth-child(2) > span:nth-child(4):not(:empty):before {
+    content: ', ';
+    margin-left: -5px;
+}
+
+
+.mcv-cventry > span:nth-child(2) > span:nth-child(2) {
+    font-family: lmsans10-oblique, sans-serif;
+    font-size: 10pt;
+}
+
+.mcv-cventry > span:nth-child(2) > span:nth-child(4):after {
+    content: '.';
+    margin-left: -4px;
+}
+
+.mcv-cventry > span:nth-child(2) > span:nth-child(4):not(:empty):after {
+    content: '.';
+    margin-left: 0;
+}
+
+.mcv-cventry > span:nth-child(2) > span:nth-child(5) {
+    display: block;
+}
+

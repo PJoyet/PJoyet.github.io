@@ -4,10 +4,8 @@ html {
 }
 
 #name{
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
   font-size: 80px;
+  margin-left: 100px;
 }
 
 .profilepic {
@@ -23,11 +21,10 @@ html {
 }
 
 .container{
-    margin-top: 50px; 
-    max-width:540px;
-    display: flex;
-    flex-direction: column;
+  position: relative;
+  top: 50px;
     min-height: 100vh;
+    background-color: #4c9ab2cb;
 }
 
 .topnav {
@@ -53,7 +50,6 @@ html {
  
   .topnav a:hover {
     background-color: #59b24c;
-    ;
     color: black;
   }
   

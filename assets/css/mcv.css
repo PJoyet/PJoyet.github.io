@@ -1,18 +1,8 @@
 
-.mcv-head {
-    width: 150px;
-    border: 1px solid;
-    padding: 3px;
-    margin: 0 0 0 15px;
-
-    color: #59b24c;
-}
-
 .mcv-section {
     font-size: 20px;
     display: block;
     margin-left: 24px;
-    margin-top: 25%;
 }
 
 .mcv-section:before {

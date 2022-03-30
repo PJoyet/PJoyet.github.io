@@ -3,33 +3,23 @@ html {
   overflow-x: hidden;
 }
 
-/*.profilepic {
-  width: 400px;
-  border: 1px solid;
-  padding: 3px;
-  margin: 0 0 0 15px; 
-  color: #59b24c;
-  float: right;
-       position: fixed;
-        right: 100px;
-        top: 150px;
-
-}*/
+#name{
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 80px;
+}
 
 .profilepic {
   width: 400px;
   border: 1px solid;
   padding: 3px;
-  margin: 0 0 0 15px; 
-  color: #59b24c;
-  top: 150px;
-  position: fixed;
-}
 
-
-
-.square {
   position: absolute;
+  color: #59b24c;
+  float: right;
+  right: 100px;
+  top: 150px;
 }
 
 .container{
@@ -40,22 +30,20 @@ html {
     min-height: 100vh;
 }
 
-
-
-
 .topnav {
-    background-color: #333;
     overflow: hidden;
+    background-color: #5ab24ccb;
     position: fixed; 
-
+    z-index:999;
     top: 0;
+    left:0;
     width: 100%;
   }
   
 
   .topnav a {
     float: left;
-    color: #f2f2f2;
+  color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -64,7 +52,8 @@ html {
   
  
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: #59b24c;
+    ;
     color: black;
   }
   

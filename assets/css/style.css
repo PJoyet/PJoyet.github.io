@@ -8,7 +8,32 @@ html {
   box-sizing: border-box;
 } */
 
-.navbar {
+
+#navbar {
+  background-color: #59b24c;
+  position: fixed;
+  top: 0;
+  left:0;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+  padding: 10px;
+  z-index:999;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: inherit;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+
+/* .navbar {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -20,12 +45,13 @@ html {
   top: 0;
   left:0;
   width: 100%;
+  
 
 }
 .navbar a{
   text-decoration: none;
   color: inherit;
-}
+} */
 .list{
   list-style: none;
   display: flex;
@@ -133,10 +159,14 @@ html {
   width: 100%;
 }
 
-.container{
+#name{font-size: 80px;}
 
+.container{
   min-height: 95vh;
-padding-top: 70px;
+  padding-top: 25vh;
+  /* border: 1px solid;
+  padding: 3px; */
+
 
 }
 
@@ -150,146 +180,8 @@ padding-top: 70px;
     margin-left: 15%;
   }
   .text{margin-top: 35px;}
+  #name{font-size: 8vw;}
   .container{padding-top: 50px;}
 }
 
 
-
-
-
-/* .wrapper {
-  display: flex;  
-  flex-flow: row wrap;
-  font-weight: bold;
-  text-align: center; 
-}
-
-.wrapper > * {
-  padding: 10px;
-  flex: 1 100%;
-}
-
-
-.aside-1 {
-  background: gold;
-}
-
-.aside-2 {
-  background: hotpink;
-}
-
-@media all and (min-width: 600px) {
-  .aside { flex: 1 0 0; }
-} */
-
-/* .profilepic2 {
-  width: 400px;
-  border: 1px solid;
-  padding: 3px;
-  color: #59b24c;
-  align-items: center;
-  position: relative;
-left: 10%;
-} */
-
-
-/* Create two equal columns that floats next to each other */
-/* .column {
-  float: left;
-  width: 50%;
-  min-height: 100vh;
-
-} */
-
-/* .column2{ */
-  /* position: relative; */
-  /*background-color: #4c9ab2cb;*/
-  /* min-height: 100vh; */
-
-  /* display: flex; */
-/* $$  justify-content: center;*/
-  /* align-items: center; */
-/* } */
-
-/* .text{
-  padding: 0;
-  text-align: center;
-  position: absolute;
-  left: 25%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  
-} */
-
-/* Clear floats after the columns */
-/* .row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-#name{
-  font-size: 80px;} */
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-/* @media screen and (max-width: 1080px) {
-  .column {
-    width: 100%;
-    min-height: 50vh;
-  }
-  .profilepic2 {
-    width: 60vw;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.text{
-
-  left: 50%;
-  top: 25%;
-  transform: translate(-50%, -25%);
-  
-}
-#name{
-  font-size: 8vw;}
-} */
-
-/* 
-.profilepic {
-  width: 400px;
-  border: 1px solid;
-  padding: 3px;
-  position: absolute;
-  color: #59b24c;
-  margin-left: 60%; */
-/* } */
-
-/* .container{ */
-  /* position: relative; */
-    /* min-height: 100vh; */
-    /*background-color: #4c9ab2cb;*/
-    /* display: flex; */
- /*   justify-content: center;*/
-    /* align-items: center; */
-
-/* } */
-/* @media screen and (max-width: 1080px) {
-
-  
-  .profilepic {
-    width: 60%;
-    border: 1px solid;
-    padding: 3px;
-    position: relative;
-    color: #59b24c;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-} */
-
-
-  
-
-
-  

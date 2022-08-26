@@ -4,20 +4,27 @@
     font-family: Avenir, sans-serif;
     padding: 0px;
     margin: 0px;
-    text-align: justify;
+    /* text-align: justify; */
     box-sizing: border-box;
 }
 
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
-    background-color: #fff;
+    background-color: green;
+    letter-spacing: 0rem;
+    /* font-size:
+     10px; */
   }
 
-p{
+  a:link {
+    color: #59b24c;
+  }
+
+/* p{
     font-size: 1em;
     line-height: 1.5em;
-}
+} */
 a{
     text-decoration: none;
     color: #000;

@@ -36,6 +36,24 @@
     background: green
 }
 
+@media screen and (max-width: 600px) {
+    .section::before{
+        content: none;
+    }
+    .section{
+        text-align: center;
+        text-decoration-line: underline;
+        text-decoration-color: green;
+        text-decoration-thickness: 6px ;
+        text-underline-offset: 5px;
+    }
+
+    .mcv-cventry > span:nth-child(1){
+        width: fit-content;
+    }
+
+}
+
 /* @media screen and (max-width: 600px) {
     .section{
          text-align-last: right; 
@@ -70,18 +88,25 @@
     float: left;
 }
 
-/* @media screen and (max-width: 600px) {
-    .mcv-section:before {
-        width: calc(30% - 40px);
+/* @media screen and (max-width: 450px) {
+    .section:before {
+        width: 25%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
     }
     .mcv-cventry > span:nth-child(1){
-        width: calc(30% - 40px);
+        width: 25%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    .mcv-cventry > span:nth-child(2){
+        margin: 0 0 0 0;
     }
   } */
 
 .mcv-cventry > span:nth-child(2) {
-    margin: 0 10px 0 160px;
-    /* text-align: justify; */
+    margin: 0 -20px 0 160px;
+    text-align: justify;
     /* hyphens: auto; */
 
     /* font-size: 12px; */
@@ -92,11 +117,11 @@
     
 }
 
-@media screen and (min-width: 600px) {
+/* @media screen and (min-width: 600px) {
     .mcv-cventry > span:nth-child(2) {
         text-align: justify;        
     }
-}
+} */
 
 .mcv-cventry > span:nth-child(2) > span:nth-child(1) {
     /* font-family: lmsans10-bold, sans-serif; */
@@ -139,6 +164,21 @@
     margin-top: 5px;
 }
 
+
+
+@media screen and (max-width: 600px) {
+    .mcv-cventry > span:nth-child(1){
+        width: 80px;
+        margin: auto;
+        }
+    .mcv-cventry > span:nth-child(2) {
+        margin-left: 100px;
+        
+    }
+}
+
+
+
 .mcv-cvitem > span:first-child{
     width: 120px;
     line-height: 1.5em;
@@ -157,6 +197,21 @@
     /* font-size: 12px; */
     display: block;
 }
+
+@media screen and (max-width: 600px) {
+    .mcv-cvitem > span:first-child{
+        width: 120px;
+        margin: auto;
+
+    }
+}
+
+/* @media screen and (max-width: 450px) {
+    .mcv-cvitem > span:first-child{
+    margin-left: 0px;
+    margin-right: 0px;   
+    }
+} */
 
 .list-container{
   display: flex;

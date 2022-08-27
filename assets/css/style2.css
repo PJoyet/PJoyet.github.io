@@ -1,7 +1,7 @@
 /*STYLES GENERAUX*/
 
 *{
-    font-family: Avenir, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 0px;
     margin: 0px;
     /* text-align: justify; */
@@ -89,7 +89,7 @@ section h2{
     width: 90%;
 }
 section > div{
-    width: 90%;
+    width: 94%;
 }
 
 /*SECTION INFOS*/

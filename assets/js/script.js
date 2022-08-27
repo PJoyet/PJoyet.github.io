@@ -1,27 +1,30 @@
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar").style.top = "0";
-  } else {
-    document.getElementById("navbar").style.top = "-70px";
-  }
-  prevScrollpos = currentScrollPos;
+function calculateAge() 
+{
+  const birthday = new Date(1996, 4, 16);
+  const now = new Date();
+  const diff = Math.abs(now - birthday );
+  const age = Math.floor(diff / (1000 * 60 * 60 * 24 * 365)); 
+  document.getElementById('age').innerHTML = age + " ans (16 mai 1996)";
+  return age
 }
 
-//var container = document.getElementById('container');
-//var windowHeight = window.innerHeight;
-//var windowWidth = window.innerWidth;
-//var scrollArea = 1000 - windowHeight;
-//var square1 = document.getElementsByClassName('square')[0];
-//var square2 = document.getElementsByClassName('square')[1];
+window.onload = function() {
+  calculateAge();
+};
 
-//square1.style.right = 600 + 'px';
 
-// update position of square 1 and square 2 when scroll event fires.
-//window.addEventListener('scroll', function() {
-//  var scrollTop = window.pageYOffset || window.scrollTop;
-//  var scrollPercent = scrollTop/scrollArea || 0;
-  
-//  square1.style.right = 600 - scrollPercent*window.innerWidth*0.6 + 'px';
-//});
+function showmore() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Lire plus";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Lire moins";
+    moreText.style.display = "inline";
+  }
+} 

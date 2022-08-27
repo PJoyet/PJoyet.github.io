@@ -34,6 +34,12 @@ a{
 .presentation{
     border-bottom: 2px dashed #ccc;
 }
+
+.presentation p{
+    text-align: justify;
+    text-indent: 20px;
+}
+
 .presentation a{
     display: block;
     text-align: center;
@@ -103,3 +109,28 @@ section > div{
     padding: 3px;
     color: #59b24c;
 }
+
+#myBtn {
+    text-align: center;
+    padding: 3px;
+    border: none;
+    color: #fff;
+    background-color: #59b24c;
+    /* border-radius: 5px; */
+}
+
+
+@media screen and (max-width: 600px) {
+    #dots {display:contents}
+    #more {display: none;}
+    #myBtn{display:inline;}
+    .presentation a{
+        margin-top: 20px;
+    }
+}
+@media screen and (min-width: 600px) {
+    #dots {display: none;}
+    #myBtn {display: none;}
+    #more {display: inline;}
+}
+

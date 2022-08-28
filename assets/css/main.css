@@ -1,0 +1,143 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    background-color: green;
+    letter-spacing: 0rem;
+  }
+
+  a:link {
+    color: #59b24c;
+  }
+
+.langues a{
+    position: absolute;
+    padding: 0px;
+    display: block;
+    width: 80px;
+    text-align: center;
+    top: 0px;
+    right: 0px;
+    color: #fff;
+    background-color: #59b24c;
+    /* border-radius: 5px; */
+
+}
+
+.separator {
+    color: #555;
+  }
+
+  a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+.description{
+    border-bottom: 2px dashed #ccc;
+}
+
+.description p{
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.description a{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto 30px auto;
+    color: #fff;
+    background-color: #59b24c;
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 5px;
+}
+.contact-flex{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.contact-flex p:first-child{
+    flex: 0 0 40%;
+}
+.contact-flex p:last-child{
+    flex: 0 0 60%;
+}
+
+
+
+/*SECTIONS*/
+section{
+    display: flex; 
+    flex-flow: row wrap;
+    /* justify-content: center; */
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px #bbb;
+    background-color: rgb(246, 246, 246);
+}
+
+section.intro{
+    justify-content: center;
+    margin-bottom: 0%;
+    box-shadow: 0px -10px 10px -10px #bbb;
+    padding-bottom: 0px;
+
+}
+section.contact{
+    margin-top: 0%;
+    box-shadow: 0px 10px 10px -10px #bbb;
+}
+
+
+section h2{
+    margin: 20px 0;
+    width: 90%;
+}
+section > div{
+    width: 90%;
+}
+
+/*SECTION INFOS*/
+.photo{
+    text-align: center;
+}
+.photo img{
+    width: 300px;
+    height: 300px;
+    border: 3px solid;
+    padding: 3px;
+    color: #59b24c;
+}
+
+#myBtn {
+    text-align: center;
+    padding: 3px;
+    border: none;
+    color: #fff;
+    background-color: #59b24c;
+}
+
+
+@media screen and (max-width: 600px) {
+    #dots {display:contents}
+    #more {display: none;}
+    #myBtn{display:inline;}
+    .description a{
+        margin-top: 20px;
+    }
+}
+@media screen and (min-width: 600px) {
+    #dots {display: none;}
+    #myBtn {display: none;}
+    #more {display: inline;}
+}

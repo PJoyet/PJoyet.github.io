@@ -1,0 +1,83 @@
+langs:
+  fr: Français
+  en: English
+
+intro:
+  photoalt: Photo de profil
+  description1: Intéressé par la robotique depuis toujours, j'ai été diplômé du Master Science pour l'Ingénieur (Sorbonne Université ex UPMC) mention Systèmes Avancés et Robotique où j'ai acquis diverses expériences allant de la conception au développement de code, me permettant d'acquérir diverses compétences dans le domaine de la robotique.
+  description2: Je souhaite être l'un des acteurs de la modernisation de la robotique et faire rayonner la France en termes d'avancement dans ce secteur, que ce soit au sein du département recherche et développement d'une petite ou grande entreprise, ou en tant que chercheur dans un institut de recherche.<br>Travaillant en équipe ou seul, mon intérêt et ma motivation seront toujours là pour répondre aux diverses demandes d'un projet robotique avec la meilleure qualité et dans les meilleurs délais.<br>J'aime apprendre les nouvelles technologies et je n'ai pas peur de m'auto-former ou de suivre des formations pour accroître mes connaissances et mes capacités.
+  button1: Lire plus
+  button2: Lire moins
+  cv: Télécharger mon CV
+
+contact:
+  sectionname: Informations générales
+  name: NOM Prénom
+  agename: Age
+  age: ans (16 mai 1996)
+
+exp:
+  sectionname: Expériences professionnelles
+  entry1:
+    date: <b>2022</b><br>mars-août
+    name: CDD INGÉNIEUR D'ÉTUDES
+    unit1: Institut national de recherche pour l'agriculture, l'alimentation et l'environnement (INRAE)
+    unit2: Unité Technologies et systèmes d'information pour les agrosystèmes (TSCF)
+    place: Centre Clermont Auvergne-Rhône-Alpes
+    description: Cette mission, réalisé dans le prolongement du stage réalisé précédemment, avait pour objectif l'étude de deux approche de couplage d'un bras robot manipulateur avec une base mobile à roue.
+  entry2:
+    date: <b>2021</b><br>mars-août
+    name: STAGE
+    unit1: Institut national de recherche pour l'agriculture, l'alimentation et l'environnement
+    unit2: Unité Technologies et systèmes d'information pour les agrosystèmes (TSCF)
+    place: Centre Clermont Auvergne-Rhône-Alpes
+    description: Stage effectué au sein de l'équipe <a href="https://www6.clermont.inrae.fr/tscf/Les-equipes/Equipe-ROMEA">ROMEA</a> de l'unité de recherche <a href="https://www6.clermont.inrae.fr/tscf">TSCF</a>. Le but de ce stage était l'étude d'une commande de contrôle couplant un bras robot manipulateur avec une base mobile à roue.
+  entry3:
+    date: <b>2019</b><br>janvier-mai
+    name: STAGE
+    unit1: Institut national de recherche Agronomique
+    unit2: Laboratoire de Génie et Microbiologie des Procédés Alimentaires
+    place: Campus AgroParisTech de Thiverval-Grignon
+    description: Stage effectué au sein de l'unité mixte de recherche <a href="https://www6.versailles-grignon.inrae.fr/gmpa">GMPA</a>. Le but de ce stage était la mise au point d'un appareillage de suivi d'échantillons dans une cuve de cuisson, par spectrométrie dans le proche infrarouge et le visible.
+
+formation:
+  sectionname: Formation
+  entry1:
+    date: 2019-2021
+    name: MASTER Automatique, Robotique, parcours Systèmes Avancés et Robotique
+    unit: Sorbonne Université (ex UPMC Paris 6), Faculté des Sciences et Ingénierie, en collaboration avec Arts et Métiers ParisTech (ENSAM) et MINES ParisTech
+    place: Paris, France
+    description:
+  entry2:
+    date: 2014-2019
+    name: LICENCE de Sciences, Technologies, Santé, mention Mécanique
+    unit: Département d'Ingénierie Mécanique de Sorbonne Université
+    place: Paris, France
+    description:
+
+langues:
+  sectionname: Langages
+  lang1:
+    name: Français
+    level: Maternelle
+  lang2:
+    name: Anglais
+    level: Niveaux B2
+
+competence:
+  sectionname: Compétence
+  item1:
+    name: Logiciels
+    entry: Solidworks<br>FreeCAD<br>Suite Office<br>Git<br>
+  item2:
+    name: Langages
+    entry:  C++<br>Python / orienté objet<br>Latex<br>Matlab / Octave<br>Fortran 90<br>
+  item3:
+    name: Systèmes
+    entry:  ROS<br>Linux<br>
+  item4:
+    name: Support
+    entry: Universal Robots<br>Imprimante 3D<br>Arduino<br>Raspberry Pi<br>
+
+
+

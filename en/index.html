@@ -12,7 +12,7 @@
     <header>
         <div class="langues" >
             <!-- Adds links to other languages on the post -->
-                <a href="/" >Français</a>
+                <a href="../index.html" >Français</a>
           </div>
     </header>
     <section class="intro">
@@ -59,7 +59,9 @@
                     <span>Institut national de recherche pour l'agriculture, l'alimentation et l'environnement (INRAE)</span>
                     <span>Unité Technologies et systèmes d'information pour les agrosystèmes (TSCF)</span>
                     <span><span class="mcv-emph">Clermont-Ferrand, France</span></span>
-                    <span>The objective of this mission was to study two approaches for coupling a robotic manipulator arm with a mobile wheel base.</span>
+                    <span>The objective of this mission was to study two approaches for coupling a robotic manipulator arm with a mobile wheel base.
+                        <br><button onclick="on_overlay('overlay1')" id="myBtn2">More information</button>
+                    </span>
                 </span>
             </span>
             <span class="mcv-cventry">
@@ -69,7 +71,9 @@
                     <span>Institut national de recherche pour l'agriculture, l'alimentation et l'environnement</span>
                     <span>Unité Technologies et systèmes d'information pour les agrosystèmes (TSCF)</span>
                     <span><span class="mcv-emph">Clermont-Ferrand, France</span></span>
-                    <span>Internship carried out in the ROMEA team of the TSCF research unit. The goal of this internship was the study of a control command coupling a manipulator robot arm with a mobile wheel base.</span>
+                    <span>Internship carried out in the ROMEA team of the TSCF research unit. The goal of this internship was the study of a control command coupling a manipulator robot arm with a mobile wheel base.
+                        <br><button onclick="on_overlay('overlay2')" id="myBtn2">More information</button>
+                    </span>
                 </span>
             </span>
             <span class="mcv-cventry">
@@ -79,7 +83,9 @@
                     <span>Institut national de recherche Agronomique</span>
                     <span>Laboratoire de Génie et Microbiologie des Procédés Alimentaires</span>
                     <span><span class="mcv-emph">AgroParisTech's campus, Thiverval-Grignon, France</span></span>
-                    <span>Internship realized within the mixed research unit GMPA. The objective of this training course was the development of an apparatus allowing the follow-up of samples in a cooking tank, by near infrared and visible spectrometry.</span>
+                    <span>Internship realized within the mixed research unit GMPA. The objective of this training course was the development of an apparatus allowing the follow-up of samples in a cooking tank, by near infrared and visible spectrometry.
+                        <br><button onclick="on_overlay('overlay3')" id="myBtn2">More information</button>
+                    </span>
                 </span>
             </span>
         </div>
@@ -139,6 +145,24 @@
             </span>
         </div>
     </section>
+    <div class="overlay" id="overlay1">
+        <div class="text-overlay">
+            <object data="html/overlay1.html"></object>
+        </div>
+        <div class="hide-button" onclick="off_overlay('overlay1')">Close</div>
+    </div>
+    <div class="overlay" id="overlay2">
+        <div class="text-overlay">
+            <object data="html/overlay2.html"></object>
+        </div>
+        <div class="hide-button" onclick="off_overlay('overlay2')">Close</div>
+    </div>
+    <div class="overlay" id="overlay3">
+        <div class="text-overlay">
+            <object data="html/overlay3.html"></object>
+        </div>
+        <div class="hide-button" onclick="off_overlay('overlay3')">Close</div>
+    </div>
 </body>
 
 
@@ -161,7 +185,7 @@ window.onload = function() {
 function showmore() {
   var dots = document.getElementById("dots");
   var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
+  var btnText = document.getElementsById("myBtn");
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";
@@ -173,6 +197,16 @@ function showmore() {
     moreText.style.display = "inline";
   }
 } 
+
+function on_overlay(name) {
+        document.getElementById(name).style.display = "block";
+    }
+
+
+function off_overlay(name) {
+        document.getElementById(name).style.display = "none";
+    }
+
 </script>
 
     </html>

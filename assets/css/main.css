@@ -125,8 +125,26 @@ section > div{
     border: none;
     color: #fff;
     background-color: #59b24c;
+    cursor: pointer;
+
 }
 
+#myBtn2 {
+    text-align: center;
+    padding: 3px;
+    border: none;
+    color: #fff;
+    background-color: #59b24c;
+    cursor: pointer;
+
+}
+@media screen and (max-width: 600px) {
+    #myBtn2 {
+        margin-left: 100px;
+        transform: translate(-50%,0%);
+        -ms-transform: translate(-50%,0%);
+    }
+}
 
 @media screen and (max-width: 600px) {
     #dots {display:contents}
@@ -141,3 +159,58 @@ section > div{
     #myBtn {display: none;}
     #more {display: inline;}
 }
+
+.mcv-emph {
+    font-family: lmsans10-oblique, sans-serif;
+}
+
+
+.overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+
+  }
+
+  .text-overlay{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    width: 90vw;
+    height: 85vh;
+    background-color: rgb(246, 246, 246);
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    box-shadow: 0px 0px 10px #ccc;
+    overflow: auto;
+  }
+
+object{
+    width: 100%;
+    height: 100%;
+}
+
+  .hide-button{
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    width: 90vw;
+    background-color: #59b24c;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    background-color: #59b24c;
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 5px;
+  }

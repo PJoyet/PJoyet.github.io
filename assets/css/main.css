@@ -185,6 +185,7 @@ section > div{
     left: 50%;
     width: 90vw;
     height: 85vh;
+    /* padding: 50px; */
     background-color: rgb(246, 246, 246);
     transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);

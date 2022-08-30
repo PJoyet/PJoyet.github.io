@@ -5,13 +5,33 @@
     html{
         background-color: rgb(246, 246, 246);
     }
+
+    .mcv-cventry > span:nth-child(1){
+    width: 200px;
+    margin-top: 10px;
+}
+
     .mcv-cventry > span:nth-child(2) {
-    margin: 0 20px 0 240px;
+        margin: auto;
+    /* margin: 0 0px 0 240px; */
     text-align: justify;
     display: block;
 }
-</style>
 
+.mcv-cventry > span:nth-child(2) > span:nth-child(1) {
+    font-size: 1.5rem;
+}
+
+div{
+    position:relative;
+    width: 90%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    -ms-transform: translate(-50%,0%);
+}
+
+</style>
+<div>
 <span class="mcv-cventry">
     <span>
         <img src="../assets/imgs/INRAE_logo.png" alt="Republique Francaise" height="50px"/>
@@ -38,13 +58,35 @@
  -> Mise en oeuvre d'achitecture web d’échange de données entre le robot et l’interface
 - Application à différents types de robot :
  -> Robot Campero
-- Scénarii réalisés :
- -> Un robot observateur et un robot suivant une trajectoire GPS
- -> Un robot suivant une trajectoire GPS et un robot suiveur
+
+
+ <span class="item">
+    <span>Scénarii réalisés</span>
+    <span>Raliemment d'un point<br>Suivi d'une trajectoire sinusoidale<br>Suivi d'une trajectoire discontinue</span>
+</span>
+
 - Visualisation distante en conditions dégradées (Robots dans l’allier, Ordinateur de supervision en Champagne au milieu des vignes)
+
 <div class="section">Technologies mises en œuvres</div>
-- Communication : utilisation de wifi radio et 4G
-- Langage informatique : C++, python, php, html, javascript, shell
+<span class="item">
+    <span>Communication</span>
+    <span>wifi<br>4g</span>
+</span>
+
+<span class="item">
+    <span>Langage informatique</span>
+    <span>C++<br>Matlab <br>shell</span>
+</span>
+
+<span class="item">
+    <span>OS</span>
+    <span>Ubuntu<br>ROS 1</span>
+</span>
+
+<span class="item">
+    <span>Logiciels</span>
+    <span>Vscode<br>Vinagre</span>
+</span>
+
 - Utilisation de Gazebo et Gzweb pour réaliser des simulations multi-robots avec des bords identiques entre la simulation et les robots réels
-- OS : Ubuntu, Debian, Windows
-- Divers : ROS 1, OpenCV, Vscode
+</div>

@@ -1,0 +1,88 @@
+h1 {
+    overflow: hidden;
+    text-align: center;
+}
+h1:before,
+h1:after {
+    background-color:green;
+    content: "";
+    display: inline-block;
+    height: 6px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+h1:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+h1:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+
+
+.section {
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.description{
+  padding: 10px;
+  text-align: center;
+}
+
+  .paragraph {
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    margin: 0%;
+    padding-left: 30px;
+
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 2.5em;
+    font-weight: bold;
+    padding: 0%;
+    margin: 0%;
+line-height: 50px;
+padding-left: 20px;
+/* margin-top: 25px; */
+
+  }
+
+  .list-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .item > span:first-child{
+    width: 160px;
+    line-height: 1.5em;
+    text-align: right;
+    display: block;
+    /* margin-left: 20px; */
+    margin-right: 20px; 
+    float: left;
+    font-weight: bold;
+}
+
+.item > span:last-child{
+    margin: 0 0 0px 180px;
+    /* width: 260px; */
+    line-height: 1.5em;
+    display: block;
+}

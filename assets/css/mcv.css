@@ -34,7 +34,7 @@
     .section::before{
         content: none;
     }
-    .section{
+    /* .section{
         text-align: center;
         text-decoration-line: underline;
         text-decoration-color: green;
@@ -44,7 +44,35 @@
 
     .mcv-cventry > span:nth-child(1){
         width: fit-content;
+    } */
+
+    .section {
+        overflow: hidden;
+        text-align: center;
     }
+    .section:before,
+    .section:after {
+        background-color:green;
+        content: "";
+        display: inline-block;
+        height: 6px;
+        position: relative;
+        vertical-align: middle;
+        width: 50%;
+    }
+    .section:before {
+        right: 0.5em;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-left: -50%;
+
+    }
+    .section:after {
+        left: 0.5em;
+        margin-right: -50%;
+    }
+
+
 }
 
 

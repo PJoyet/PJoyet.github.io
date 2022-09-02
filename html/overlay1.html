@@ -1,92 +1,206 @@
-<link rel="stylesheet" href="../assets/css/main.css" />
+<link rel="stylesheet" href="../assets/css/overlay.css" />
+
+
+
+<section class="section">
+    <img src="../assets/imgs/INRAE_logo.png" alt="Republique Francaise"
+        style="height: 50px; vertical-align: middle;" class="image" />
+    <div class="content">
+
+        <h2 class="title">CDD INGÉNIEUR D'ÉTUDES</h2>
+        <p class="paragraph">Institut national de recherche pour l'agriculture, l'alimentation et l'environnement(INRAE)</p>
+        <p class="paragraph">Unité Technologies et systèmes d'information pour les agrosystèmes (TSCF)</p>
+        <p class="paragraph">Centre Clermont Auvergne-Rhône-Alpes</p>
+    </div>
+</section>
+<div class="description">
+    <p>Cette mission avait pour objectif l'étude de deux approches de couplage d'un bras robot
+        manipulateur avec une base mobile à roue.</p>
+</div>
+
+<h1>Développements réalisés</h1>
+
+<h1>Scénarii réalisés</h1>
+
+<h1>Technologies mises en œuvres</h1>
+
+<div class="list-container">
+    <span class="item">
+        <span>Langage informatique</span>
+        <span>C++ / Octave / Shell / Latex</span>
+    </span>
+    <span class="item">
+        <span>OS</span>
+        <span>Ubuntu / ROS 1</span>
+    </span>
+    <span class="item">
+        <span>Logiciels</span>
+        <span>Vscode / Vinagre</span>
+    </span>
+</div>
+
+
+<!-- <link rel="stylesheet" href="../assets/css/main.css" />
 <link rel="stylesheet" href="../assets/css/mcv.css" />
 
 <style>
-    html{
+    html {
         background-color: rgb(246, 246, 246);
     }
 
-    .mcv-cventry > span:nth-child(1){
-    width: 200px;
-    margin-top: 10px;
-}
+    .mcv-cventry>span:nth-child(1) {
+        width: 200px;
+        margin-top: 10px;
+    }
 
-    .mcv-cventry > span:nth-child(2) {
+    .mcv-cventry>span:nth-child(2) {
         margin: auto;
-    /* margin: 0 0px 0 240px; */
-    text-align: justify;
-    display: block;
-}
+        /* margin: 0 0px 0 240px; */
+        text-align: justify;
+        display: block;
+    }
 
-.mcv-cventry > span:nth-child(2) > span:nth-child(1) {
-    font-size: 1.5rem;
-}
+    .mcv-cventry>span:nth-child(2)>span:nth-child(1) {
+        font-size: 1.5rem;
+    }
 
-div{
-    position:relative;
-    width: 90%;
-    left: 50%;
-    transform: translate(-50%,0%);
-    -ms-transform: translate(-50%,0%);
-}
+    div {
+        position: relative;
+        width: 90%;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        -ms-transform: translate(-50%, 0%);
+    }
 
+
+
+    .mcv-cventry>span:nth-child(2)>span:nth-child(1) {
+        font-weight: bold;
+    }
+
+    .mcv-cventry>span:nth-child(2)>span:nth-child(2):not(:empty):before,
+    .mcv-cventry>span:nth-child(2)>span:nth-child(3):not(:empty):before,
+    .mcv-cventry>span:nth-child(2)>span:nth-child(4):not(:empty):before {
+        content: none;
+        margin-left: 0;
+    }
+
+
+    .mcv-cventry>span:nth-child(2)>span:nth-child(2),
+    .mcv-cventry>span:nth-child(2)>span:nth-child(3),
+    .mcv-cventry>span:nth-child(2)>span:nth-child(4) {
+        font-family: lmsans10-oblique, sans-serif;
+        font-size: 0.88em;
+        font-weight: lighter;
+    }
+
+
+    .mcv-cventry>span:nth-child(2)>span:nth-child(4):not(:empty):after {
+        content: '.';
+        margin-left: 0;
+    }
+
+    .mcv-cventry>span:nth-child(2)>span:nth-child(5) {
+        display: block;
+        margin-top: 5px;
+    }
+
+
+
+    @media screen and (max-width: 600px) {
+        .mcv-cventry>span:nth-child(1) {
+            width: 80px;
+            margin: auto;
+        }
+
+        .mcv-cventry>span:nth-child(2) {
+            margin-left: 100px;
+
+        }
+
+
+        h1:before,
+        h1:after {
+            background-color: #000;
+            content: "";
+            display: inline-block;
+            height: 1px;
+            position: relative;
+            vertical-align: middle;
+            width: 50%;
+        }
+
+        h1:before {
+            right: 0.5em;
+            margin-left: -50%;
+        }
+
+        h1:after {
+            left: 0.5em;
+            margin-right: -50%;
+        }
+    }
 </style>
+
+
 <div>
-<span class="mcv-cventry">
-    <span>
-        <img src="../assets/imgs/INRAE_logo.png" alt="Republique Francaise" height="50px"/>
-    </span>
-    <span>
-        <span>CDD INGÉNIEUR D'ÉTUDES</span>
-        <span>Institut national de recherche pour l'agriculture, l'alimentation et l'environnement
-            (INRAE)</span>
-        <span>Unité Technologies et systèmes d'information pour les agrosystèmes (TSCF)</span>
-        <span><span class="mcv-emph">Centre Clermont Auvergne-Rhône-Alpes</span></span>
-        <span>Cette mission avait pour objectif l'étude de deux approches de couplage d'un bras robot
-            manipulateur avec une base mobile à roue.
+    <span class="mcv-cventry">
+        <span>
+            <img src="../assets/imgs/INRAE_logo.png" alt="Republique Francaise" height="50px" />
+        </span>
+        <span>
+            <span>CDD INGÉNIEUR D'ÉTUDES</span><br>
+            <span>Institut national de recherche pour l'agriculture, l'alimentation et l'environnement
+                (INRAE)</span><br>
+            <span>Unité Technologies et systèmes d'information pour les agrosystèmes (TSCF)</span><br>
+            <span><span class="mcv-emph">Centre Clermont Auvergne-Rhône-Alpes</span></span><br>
+            <span>Cette mission avait pour objectif l'étude de deux approches de couplage d'un bras robot
+                manipulateur avec une base mobile à roue.
+            </span>
         </span>
     </span>
-</span>
 
-<div class="section">Développements réalisés</div>
-- Mise en œuvre de l’architecture LambdAgrIoT
-- Configuration minimale d’un server Kafka
-- Interfaçage de topics ROS avec Kafka
-- Développement d'une interface web de supervision dans le cadre du projet SuperRob:
- -> Affichage d'information GPS à l'aide d'OpenStreetMap
- -> Affichage d'informations du robot (vitesse, algorithme en cours de fonctionnement,
- -> Mise en oeuvre d'achitecture web d’échange de données entre le robot et l’interface
-- Application à différents types de robot :
- -> Robot Campero
+    <div class="section">Développements réalisés</div>
+    - Mise en œuvre de l’architecture LambdAgrIoT
+    - Configuration minimale d’un server Kafka
+    - Interfaçage de topics ROS avec Kafka
+    - Développement d'une interface web de supervision dans le cadre du projet SuperRob:
+    -> Affichage d'information GPS à l'aide d'OpenStreetMap
+    -> Affichage d'informations du robot (vitesse, algorithme en cours de fonctionnement,
+    -> Mise en oeuvre d'achitecture web d’échange de données entre le robot et l’interface
+    - Application à différents types de robot :
+    -> Robot Campero
 
 
- <span class="item">
-    <span>Scénarii réalisés</span>
-    <span>Raliemment d'un point<br>Suivi d'une trajectoire sinusoidale<br>Suivi d'une trajectoire discontinue</span>
-</span>
+    <span class="item">
+        <span>Scénarii réalisés</span>
+        <span>Raliemment d'un point<br>Suivi d'une trajectoire sinusoidale<br>Suivi d'une trajectoire discontinue</span>
+    </span>
 
-- Visualisation distante en conditions dégradées (Robots dans l’allier, Ordinateur de supervision en Champagne au milieu des vignes)
+    - Visualisation distante en conditions dégradées (Robots dans l’allier, Ordinateur de supervision en Champagne au
+    milieu des vignes)
 
-<div class="section">Technologies mises en œuvres</div>
-<span class="item">
-    <span>Communication</span>
-    <span>wifi<br>4g</span>
-</span>
+    <div class="section">Technologies mises en œuvres</div>
+    <span class="item">
+        <span>Communication</span>
+        <span>wifi<br>4g</span>
+    </span>
 
-<span class="item">
-    <span>Langage informatique</span>
-    <span>C++<br>Matlab <br>shell</span>
-</span>
+    <span class="item">
+        <span>Langage informatique</span>
+        <span>C++<br>Matlab <br>shell</span>
+    </span>
 
-<span class="item">
-    <span>OS</span>
-    <span>Ubuntu<br>ROS 1</span>
-</span>
+    <span class="item">
+        <span>OS</span>
+        <span>Ubuntu<br>ROS 1</span>
+    </span>
 
-<span class="item">
-    <span>Logiciels</span>
-    <span>Vscode<br>Vinagre</span>
-</span>
+    <span class="item">
+        <span>Logiciels</span>
+        <span>Vscode<br>Vinagre</span>
+    </span>
 
-- Utilisation de Gazebo et Gzweb pour réaliser des simulations multi-robots avec des bords identiques entre la simulation et les robots réels
-</div>
+    - Utilisation de Gazebo et Gzweb pour réaliser des simulations multi-robots avec des bords identiques entre la
+    simulation et les robots réels
+</div> -->
